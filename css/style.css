@@ -65,16 +65,6 @@ nav ul{
     list-style: none;
 }
 
-nav h2 a{
-    color: var(--bcolor);
-    transition: all 0.1s ease-in-out;
-}
-
-
-nav h2 a:hover{
-    color: var(--brownish);
-}
-
 
 nav h2{
     width: 40%;
@@ -145,7 +135,7 @@ transition: all 0.5s ease-in;
 }
 
 .s1 .more-about-me{
-    margin: 5em 0;
+    margin: 7em 0 5em 0;
 }
 
 .s1 .more-about-me h2{
