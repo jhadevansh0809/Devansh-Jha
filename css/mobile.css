@@ -57,6 +57,9 @@
   }
 
   @media screen and (max-width:600px) {
+    nav{
+        height: 500px;
+    }
    .heading{
         font-size: 1.5em;
     }
@@ -74,8 +77,44 @@
         width: 8em;
         height: 8em;
     }
-    
 
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li{
+        margin: 1em 0;
+    }
+
+    .s1 .more-about-me{
+        display: none ;
+    }
+
+    .s1 .about-me .image-content{
+        display: none;
+     }
+
+
+     .s1 .about-me{
+        margin-top: 10em;
+        height: 200px;
+    }
+
+    .s1 .about-me .text-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 100%;
+    }
+
+
+    .s1 .about-me{
+        /* margin-top: 5em; */
+        position: relative;
+        height: 50vh;
+    }
 
     .pop-up h2{
         font-size: 1.2rem;
@@ -137,23 +176,11 @@
         display: inline-block;
     }
 
-    nav ul{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li{
-        margin: 1em 0;
-    }
-
     .s1 .about-me{
         margin-top: 5em;
         height: 200px;
     }
 
-    .s1 .more-about-me{
-        display: none ;
-    }
 
     .s1 .about-me{
         /* margin-top: 5em; */
@@ -161,17 +188,7 @@
         height: 70vh;
     }
 
-    .s1 .about-me .text-content{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        height: 100%;
-    }
-
-    .s1 .about-me .image-content{
-       display: none;
-    }
+  
 
     .pop-up{
         height: 95vh;
