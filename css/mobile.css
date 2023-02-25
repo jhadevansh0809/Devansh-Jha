@@ -1,0 +1,202 @@
+@media screen and (max-width: 1100px) {
+    .pop-up{
+        height: 80vh;
+    }
+
+    .pop-up h2{
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+
+    nav{
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .heading{
+        display: block;
+        text-align: center !important;
+    }
+    
+    nav ul li{
+        margin: 0 1rem;
+    }
+
+    .pop-up{
+        width: 75vw;
+        height: 80vh;
+    }
+
+    .s1 .my-projects .project-item{
+        width: 70%;
+    }
+
+    .s1 .about-me .image-content{
+        width: 80%;
+        margin: auto;
+    }
+
+    
+    .s1 .about-me .text-content{
+        text-align:left;
+        margin: auto;
+        width: 100%;
+    }
+
+    .s1 .about-me{
+        margin-top: 0;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  }
+
+  @media screen and (max-width:600px) {
+   .heading{
+        font-size: 1.5em;
+    }
+
+    .para{
+        font-size: smaller;
+    }
+
+    nav ul li{
+        font-size: 0.8em;
+    }
+
+    .s1 .my-skills img{
+        margin: auto;
+        width: 8em;
+        height: 8em;
+    }
+    
+
+
+    .pop-up h2{
+        font-size: 1.2rem;
+    }
+    .pop-up img{
+        width: 80%;
+    }
+    .pop-up .information .each-info{
+        font-size: 0.8rem !important;
+    }
+
+    .pop-up .information .about-info{
+        font-size: 0.8rem !important;
+    }
+
+    .close{
+        width: 5px;
+        height: 5px;
+        top: 25px;
+        right: 40px;
+    }
+
+    .s1 .my-projects .project-item{
+        width: 60vw;
+        height: 45vh;
+    }
+
+    .s1 .my-projects .project-item img{
+        height: 50%;
+    }
+
+    .s1 .my-projects .project-item p{
+        font-size: small;
+        padding: 0.8em 0;
+    }
+
+    .s1 .project-item button{
+        font-size: 0.7em;
+    }
+
+    .s1 .contact p{
+        font-size: small;
+    }
+
+    footer .logos img{
+        width: 20px;
+        height: 20px;
+        padding: 0 0.4em;
+    }
+  }
+
+  @media screen and (max-width:400px){
+
+    nav{
+        height: 500px;
+    }
+
+    nav .heading{
+        display: inline-block;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li{
+        margin: 1em 0;
+    }
+
+    .s1 .about-me{
+        margin-top: 5em;
+        height: 200px;
+    }
+
+    .s1 .more-about-me{
+        display: none ;
+    }
+
+    .s1 .about-me{
+        /* margin-top: 5em; */
+        position: relative;
+        height: 70vh;
+    }
+
+    .s1 .about-me .text-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 100%;
+    }
+
+    .s1 .about-me .image-content{
+       display: none;
+    }
+
+    .pop-up{
+        height: 95vh;
+    }
+
+    .s1 .my-projects .project-item{
+        width: 90%;
+        height: 30vh;
+    }
+
+    .s1 .my-projects .project-item img{
+        height: 45%;
+        width: 100%;
+    }
+
+    .s1 .my-projects .project-item p{
+        font-size: 0.6em;
+    }
+
+    
+    .s1 .my-projects .project-item span{
+        font-size: 0.6em;
+    }
+    .s1 .project-item button{
+        padding: 0.8em;
+        font-size: 0.6em;
+    }
+  }

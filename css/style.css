@@ -192,14 +192,14 @@ transition: all 0.5s ease-in;
 .pop-up{
     display: none;
     padding: 2em;
-    width: 40%;
-    height: 80%;
+    width: 50%;
+    height: 70%;
     background-color: rgba(22, 21, 21, 0.971);
     border-radius: 25px;
 }
 
 .pop-up img{
-    width: 60%;
+    width: 40%;
     height: 35%;
     margin: auto;
     padding: 1em 0;
@@ -207,13 +207,16 @@ transition: all 0.5s ease-in;
 }
 
 .pop-up .information .each-info{
-    height: 2em;
+    font-size: 0.9rem !important;
+    /* height: 2em; */
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .pop-up .information .about-info{
+    font-size: 0.9rem;
     padding: 1em 0;
 }
 
@@ -246,8 +249,8 @@ transition: all 0.5s ease-in;
     position: absolute;
     right: 32px;
     top: 32px;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     background-color: transparent;
     border-color: transparent;
   }
