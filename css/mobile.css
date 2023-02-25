@@ -60,13 +60,6 @@
     nav{
         height: 550px;
     }
-   .heading{
-        font-size: 1.5em;
-    }
-
-    .para{
-        font-size: smaller;
-    }
 
     nav ul li{
         font-size: 1em;
@@ -98,7 +91,8 @@
 
      .s1 .about-me{
         margin-top: 10em;
-        height: 200px;
+        position: relative;
+        height: 50vh;
     }
 
     .s1 .about-me .text-content{
@@ -107,34 +101,21 @@
         left: 50%;
         transform: translate(-50%,-50%);
         height: 100%;
+        text-align: center;
     }
 
-
-    .s1 .about-me{
-        /* margin-top: 5em; */
-        position: relative;
-        height: 50vh;
-    }
-
-    .pop-up h2{
-        font-size: 1.2rem;
-    }
-    .pop-up img{
-        width: 80%;
-    }
-    .pop-up .information .each-info{
-        font-size: 0.8rem !important;
-    }
-
-    .pop-up .information .about-info{
-        font-size: 0.8rem !important;
-    }
 
     .close{
         width: 5px;
         height: 5px;
         top: 25px;
         right: 40px;
+    }
+
+    .s1 .my-projects .project-items{
+        display: block;
+        margin: auto;
+        margin-top: 2em;
     }
 
     .s1 .my-projects .project-item{
@@ -166,58 +147,3 @@
     }
   }
 
-  @media screen and (max-width:400px){
-
-    nav{
-        height: 500px;
-    }
-
-    nav ul li{
-        font-size: 0.8em;
-    }
-
-    nav .heading{
-        display: inline-block;
-    }
-
-    .s1 .about-me{
-        margin-top: 5em;
-        height: 200px;
-    }
-
-
-    .s1 .about-me{
-        /* margin-top: 5em; */
-        position: relative;
-        height: 70vh;
-    }
-
-  
-
-    .pop-up{
-        height: 95vh;
-    }
-
-    .s1 .my-projects .project-item{
-        width: 90%;
-        height: 30vh;
-    }
-
-    .s1 .my-projects .project-item img{
-        height: 45%;
-        width: 100%;
-    }
-
-    .s1 .my-projects .project-item p{
-        font-size: 0.6em;
-    }
-
-    
-    .s1 .my-projects .project-item span{
-        font-size: 0.6em;
-    }
-    .s1 .project-item button{
-        padding: 0.8em;
-        font-size: 0.6em;
-    }
-  }
