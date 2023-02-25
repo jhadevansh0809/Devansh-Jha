@@ -123,6 +123,7 @@ transition: all 0.5s ease-in;
 }
 
 .s1 .about-me .text-content{
+    margin-top:2em ;
     color: white;
     width: 50%;
     position: relative;
@@ -165,8 +166,11 @@ transition: all 0.5s ease-in;
     text-align: center;
 }
 
+.s1 .my-skills .heading{
+    margin-bottom: 2em;
+}
+
 .s1 .all-skills{
-    margin: 4em 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -178,12 +182,14 @@ transition: all 0.5s ease-in;
 }
 
 .s1 .my-projects{
-    margin: 5em 0;
     text-align: center;
 }
 
+.s1 .my-projects .heading{
+    margin-bottom: 1em;
+}
+
 .s1 .my-projects .project-items{
-    margin: 4em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -341,7 +347,7 @@ transition: all 0.5s ease-in;
 }
 
 .s1 .contact div{
-    margin: 3em;
+    margin: 2em;
 }
 
 .s1 .small-heading{
