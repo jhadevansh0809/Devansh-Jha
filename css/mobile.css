@@ -58,7 +58,7 @@
 
   @media screen and (max-width:600px) {
     nav{
-        height: 500px;
+        height: 550px;
     }
    .heading{
         font-size: 1.5em;
@@ -69,7 +69,7 @@
     }
 
     nav ul li{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .s1 .my-skills img{
@@ -170,6 +170,10 @@
 
     nav{
         height: 500px;
+    }
+
+    nav ul li{
+        font-size: 0.8em;
     }
 
     nav .heading{
