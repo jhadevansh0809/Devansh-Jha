@@ -149,5 +149,9 @@
         height: 20px;
         padding: 0 0.4em;
     }
+
+    div.arrow{
+        right: 40px;
+    }
   }
 

@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -395,3 +396,51 @@ footer .logos img{
   }
   
 
+
+
+  div.arrow {
+    width: 4vmin;
+    height: 4vmin;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 110px;
+    right: 50px;
+    transform: rotate(-45deg);
+  }
+
+  div.arrow::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-width: 0.8vmin 0.8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: 0.2s ease;
+    display: block;
+    transform-origin: 100% 0;
+  }
+  div.arrow:after {
+    content: "";
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 0.8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition: 0.2s ease;
+  }
+  div.arrow:hover::after {
+    transform: rotate(45deg);
+    border-color: orange;
+    height: 120%;
+  }
+  div.arrow:hover::before {
+    border-color: orange;
+    transform: scale(0.8);
+  }
+
+
+  
