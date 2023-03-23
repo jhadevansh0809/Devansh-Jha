@@ -170,6 +170,7 @@ transition: all 0.5s ease-in;
     margin: auto;
     width: 12em;
     height: 12em;
+    object-fit: cover;
 }
 
 .s1 .my-projects{
@@ -406,6 +407,7 @@ footer .logos img{
     bottom: 110px;
     right: 50px;
     transform: rotate(-45deg);
+    display: none;
   }
 
   div.arrow::before {
